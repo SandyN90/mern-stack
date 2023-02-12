@@ -1,4 +1,5 @@
 const express = require('express');
+require('./database/connection')
 const server = express();
 
 const middleware = (req, res, next) => {
